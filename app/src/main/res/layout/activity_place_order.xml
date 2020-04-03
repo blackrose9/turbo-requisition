@@ -9,13 +9,13 @@
     <include
         layout="@layout/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="?actionBarSize" />
 
     <EditText
         android:id="@+id/addCustomerName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_margin="15dp"
         android:ems="10"
         android:hint="Customer Name"
         android:inputType="textPersonName" />
@@ -23,20 +23,25 @@
     <EditText
         android:id="@+id/addOrderContent"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:ems="10"
-        android:hint="Item Name - Quantity"
+        android:hint="Item Name - Quantity \nItem Name - Quantity \nItem Name - Quantity"
         android:inputType="textMultiLine" />
 
     <include
         layout="@layout/add_item_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
 
     <Button
         android:id="@+id/placeOrderBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorAccent"
+        android:clickable="true"
+        android:focusable="true"
         android:text="Place Order" />
 </LinearLayout>
