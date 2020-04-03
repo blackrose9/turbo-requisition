@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "479066952495",
+    "firebase_url": "https://easyrequisition.firebaseio.com",
+    "project_id": "easyrequisition",
+    "storage_bucket": "easyrequisition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479066952495:android:c7851116a0db03a8a987da",
+        "android_client_info": {
+          "package_name": "com.example.easyrequisition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479066952495-6nhp08hlsbbblfrm925gk55lbvprv30r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApe-96Lt7fM095WCj5P36sgnsKrn9NU8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479066952495-6nhp08hlsbbblfrm925gk55lbvprv30r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
