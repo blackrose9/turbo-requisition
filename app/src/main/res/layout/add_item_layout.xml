@@ -4,18 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView
+    <EditText
         android:id="@+id/itemName"
         android:layout_width="wrap_content"
         android:layout_height="?attr/actionBarSize"
         android:layout_weight="1"
-        android:hint="Item Name" />
+        android:hint="Item Name"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/itemQty"
         android:layout_width="50dp"
         android:layout_height="?attr/actionBarSize"
         android:ems="10"
+        android:hint="Qty"
         android:inputType="number" />
 
     <ImageButton
