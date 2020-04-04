@@ -20,20 +20,20 @@
         android:hint="Customer Name"
         android:inputType="textPersonName" />
 
+    <include
+        layout="@layout/add_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
     <EditText
         android:id="@+id/addOrderContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:ems="10"
-        android:hint="Item Name - Quantity \nItem Name - Quantity \nItem Name - Quantity"
+        android:hint="Your Order: "
         android:inputType="textMultiLine" />
-
-    <include
-        layout="@layout/add_item_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp" />
 
     <Button
         android:id="@+id/placeOrderBtn"
