@@ -54,6 +54,7 @@ public class PlaceOrderActivity extends AppCompatActivity implements View.OnClic
                 .child("Orders");
 
         mPlaceOrderBtn.setOnClickListener(this);
+        mAddItemBtn.setOnClickListener(this);
     }
 
     @Override
@@ -67,6 +68,13 @@ public class PlaceOrderActivity extends AppCompatActivity implements View.OnClic
             Toast.makeText(PlaceOrderActivity.this, "Submitted", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(PlaceOrderActivity.this, MainActivity.class);
             startActivity(intent);
+        }
+        if (v == mAddItemBtn) {
+            String itemName = mItemName.getText().toString();
+            String itemQty = mItemQty.getText().toString();
+            mAddOrderContent.append(itemName + " - " + itemQty + "\n");
+            mItemName.getText().clear();
+            mItemQty.getText().clear();
         }
     }
 
