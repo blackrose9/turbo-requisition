@@ -18,6 +18,7 @@ public class FirebaseOrderViewHolder extends RecyclerView.ViewHolder implements 
         super(itemView);
         this.mView = itemView;
         this.mContext = itemView.getContext();
+        itemView.setOnClickListener(this);
     }
 
     public void bindOrders(Order order) {
@@ -30,6 +31,10 @@ public class FirebaseOrderViewHolder extends RecyclerView.ViewHolder implements 
 
     @Override
     public void onClick(View v) {
-
+//        new MaterialAlertDialogBuilder(mContext)
+//                .setTitle("Boo")
+//                .setMessage("Yaka")
+//                .setPositiveButton("Yaaas", null)
+//                .show();
     }
 }
