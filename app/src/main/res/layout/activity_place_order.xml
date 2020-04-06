@@ -43,5 +43,6 @@
         android:backgroundTint="@color/colorAccent"
         android:clickable="true"
         android:focusable="true"
-        android:text="Place Order" />
+        android:text="Place Order"
+        android:textColor="@color/icons" />
 </LinearLayout>
